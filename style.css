@@ -651,18 +651,6 @@ body {
         margin-bottom: 0px;
         line-height: 25px;
     }
-
-    /* .fifth_section_title {
-        margin-bottom: 0;
-    }
-
-    .fifth_section_text {
-        margin-bottom: 0;
-    } */
-
-   /*  .fifth_section_block {
-        padding: 10px;
-    } */
 }
 
 @media screen and (max-width: 1384px) {
@@ -852,6 +840,16 @@ body {
     .fifth_section_img_block {
         order: -1;
     }
+
+    .sixth_section {
+        gap: 40px;
+        margin: 0 0 79px 0;
+    }
+
+    .sixth_section_title {
+        font-size: 36px;
+        line-height: 45px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -999,6 +997,41 @@ body {
 
     .fifth_section_img {
         width: 70%;
+    }
+
+    .sixth_section {
+        gap: 0;
+    }
+
+    .sixth_section_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 30px;
+    }
+
+    .sixth_section_title {
+        margin: 0;
+    }
+
+    .sixth_section_text {
+        font-size: 0.9rem;
+        line-height: 25px;
+        margin: 0;
+    }
+
+    .sixth_section_input::placeholder {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    .sixth_section_button {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    .sixth_section_img {
+        margin: -36px 0 0 0;
     }
 
 }
@@ -1174,6 +1207,49 @@ body {
     .fifth_section_mark {
         width: 7%;
     }
+
+    .sixth_section_block {
+        margin: 15px;
+        gap: 10px;
+    }
+
+    .sixth_section_title {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .sixth_section_text {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+
+    .sixth_section_text_input_block {
+        padding: 5px 5px 5px 15px;
+    }
+
+    .sixth_section_input {
+        height: 30px;
+    }
+
+    .sixth_section_input::placeholder {
+        font-size: 0.7rem;
+        line-height: 0.8rem;
+    }
+
+    .sixth_section_button {
+        font-size: 0.7rem;
+        height: 30px;
+        line-height: 0.8rem;
+    }
+
+    .sixth_section_img_ {
+        width: 90%;
+    }
+
+    .sixth_section_img {
+        margin: 0;
+        align-self: center;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -1196,5 +1272,9 @@ body {
 
     .fifth_section_img_hasanul {
         width: 25%;
+    }
+
+    .sixth_section_img {
+        display: none;
     }
 }
